@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Guiyin TIAN"
+title                    : "TIAN Guiyin | 田贵尹"
 description              : ""
 repository               : "GuiyinTIAN/GuiyinTIAN.github.io"
 google_scholar_stats_use_cdn : true
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # "GuiyinTIAN"
+  github           : "GuiyinTIAN"
   google_plus      :
   keybase          :
   instagram        :
@@ -138,6 +138,13 @@ sass:
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Live Server
+livereload: true
+port: 4000
+host: 127.0.0.1
+destination: ./_site
+source: .
+
 
 # Plugins
 plugins:
@@ -161,3 +168,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
