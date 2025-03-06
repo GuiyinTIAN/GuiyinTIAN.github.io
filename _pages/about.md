@@ -53,6 +53,10 @@ Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student major
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
+
+# 📚 Project
+- will be updated soon...
+
 # 💻 Internships
 
 - *2024.09 - now*, Student Research Assistant in [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his), Hong Kong.

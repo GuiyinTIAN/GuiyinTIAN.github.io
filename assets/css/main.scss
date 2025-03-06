@@ -107,3 +107,66 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+
+
+// Footer Styles
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #main {
+    flex: 1 0 auto;
+  }
+  
+  footer {
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-bottom: 0.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    min-height: 60px; 
+  }
+
+  .footer-separator hr {
+    border: 0;  
+    height: 1px;
+    background-color: #f8f7f7;  
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+  .page__footer-copyright {
+    text-align: center;
+    font-size: 0.8em;
+    color: #6c757d;
+    margin: 0.5em 0;
+    
+    p {
+      margin: 0.1em 0;
+    }
+    
+    a {
+      color: #4a69bd;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    
+    small {
+      font-size: 0.8em;
+    }
+  }
