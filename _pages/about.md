@@ -54,7 +54,7 @@ Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student major
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 
-# 📚 Project
+# 📚 Projects
 - will be updated soon...
 
 # 💻 Internships
