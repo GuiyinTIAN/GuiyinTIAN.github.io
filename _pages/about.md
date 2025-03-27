@@ -48,8 +48,11 @@ Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student major
 - *2022.09 - 2026.07(now)*, Undergraduate, Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong.
 
 # 🔥 News
-
-- **[2022.09]** Start my undergraduate journey at The University of Hong Kong. 
+- **[2025.03]** &nbsp;🎉🎉 Present demo at [IEEE VR 2025](https://ieeevr.org/2025/) 3D UI-contest, Sanit-Malo, France
+- **[2024.06]** &nbsp;🎉🎉 Join HKU [DASE HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern
+- **[2023.10]** &nbsp;🤖🏆 Join HKU [RoboMaster](https://innowings.engg.hku.hk/robomaster/) team and participated in [RMUC](https://www.robomaster.com/en-US/robo/rm) 2024  and [RMUL](https://www.robomaster.com/en-US/robo/college-league?djifrom=nav) 2024
+- **[2022.12]** &nbsp;🎉🎉 Smart Soccer Robot project was showcased in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/)
+- **[2022.09]** &nbsp;🎉🎉 Start my undergraduate journey at The University of Hong Kong 
  
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
