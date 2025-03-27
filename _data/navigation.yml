@@ -17,11 +17,13 @@ main:
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
+  - title: "Internships"
+    url: "/#-internships"
+    
   - title: "Projects"
     url: "/#-projects"
 
-  - title: "Internships"
-    url: "/#-internships"
+
 
   # - title: "CV"
   #   url: "/files/CV_GuiyinTIAN.pdf"
