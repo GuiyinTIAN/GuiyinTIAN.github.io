@@ -1,4 +1,3 @@
-
 <h1 align="center">
 AcadHomepage
 </h1>
@@ -64,6 +63,51 @@ Some examples:
 1. Open http://127.0.0.1:4000 in your browser.
 1. If you change the source code of the website, the livereload server will automatically refresh.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+
+# 项目运行指南
+
+## 前提条件
+
+运行此 Jekyll 网站需要安装以下软件：
+
+1. **Ruby**：Jekyll 是基于 Ruby 开发的
+   - Windows：建议使用 [RubyInstaller](https://rubyinstaller.org/)
+   - macOS：系统自带 Ruby，或使用 `brew install ruby`
+   - Linux：使用包管理器，如 `sudo apt install ruby-full`
+
+2. **Bundler**：管理 Ruby gem 依赖
+   ```
+   gem install bundler
+   ```
+
+3. **Jekyll**：使用 Bundler 安装
+   ```
+   gem install jekyll
+   ```
+
+## 安装项目依赖
+
+在项目根目录下执行：
+````markdown
+bundle install
+````
+
+## 运行项目
+
+在项目根目录下执行：
+````markdown
+bundle exec jekyll serve
+````
+
+然后在浏览器中打开 `http://localhost:4000` 查看效果。
+
+## 常见问题
+
+- **Q: 为什么我的修改没有反映在浏览器中？**  
+  A: 请确保你已经保存了所有修改，并且在浏览器中刷新了页面。如果问题依然存在，请检查终端中是否有错误信息。
+
+- **Q: 如何清除 Jekyll 缓存？**  
+  A: 可以通过删除 `_site` 目录来手动清除缓存。下次构建时，Jekyll 会自动重新生成所有文件。
 
 # Acknowledges
 
