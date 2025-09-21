@@ -39,6 +39,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+@import "projects";
 
 .paper-box {
     display: flex;
@@ -108,68 +109,41 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+/* ==========================================================================
+   MODERN ENHANCEMENTS
+   ========================================================================== */
 
-
-// Footer Styles
-html, body {
-    height: 100%;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  #main {
-    flex: 1 0 auto;
-  }
-  
-  footer {
-    flex-shrink: 0;
-    margin-top: auto;
-    padding-bottom: 0.5em;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    min-height: 60px; 
-  }
-
-  .footer-separator hr {
-    border: 0;  
-    height: 1px;
-    background-color: #f8f7f7;  
-    margin-bottom: 0;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+// sticky masthead with blur effect
+.masthead {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+    // normal desktop blur effect
+    @supports (backdrop-filter: blur(10px)) {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
     
-  .page__footer-copyright {
-    text-align: center;
-    font-size: 0.8em;
-    color: #6c757d;
-    margin: 0.5em 0;
-    
-    p {
-      margin: 0.1em 0;
+    @media (max-width: 768px) {
+        @supports (backdrop-filter: blur(5px)) {
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        
+        @supports not (backdrop-filter: blur(5px)) {
+            background-color: rgba(255, 255, 255, 0.98) !important;
+        }
     }
     
-    a {
-      color: #4a69bd;
-      text-decoration: none;
-      
-      &:hover {
-        text-decoration: underline;
-      }
+    .masthead__menu-item {
+        transition: all 0.3s ease;
+        
+        &:hover {
+            transform: translateY(-1px);
+        }
     }
-    
-    small {
-      font-size: 0.8em;
-    }
-  }
+}
 
 
 //   // 添加自定义背景

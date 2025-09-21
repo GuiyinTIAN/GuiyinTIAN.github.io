@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Tian Guiyin|田贵尹"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "HIS Lab @HKU"
+  bio              : "CPS Lab @HKU"
   location         : "Hong Kong, China"
   employer         :
   pubmed           : 
@@ -43,7 +43,7 @@ author:
   instagram        : # "yiwant410"
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : #"linkedin.com/in/guiyin-tian-270907290"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :

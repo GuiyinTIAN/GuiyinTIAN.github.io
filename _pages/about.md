@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 # 👨‍🎓 About Me
-Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student majoring in Computer Engineering at the Department of Electrical and Electronic Engineering ([EEE](https://www.eee.hku.hk/)), The University of Hong Kong ([HKU](https://www.hku.hk/)).
+{: .section-title}
+
+Hi there👋, nice to meet you! I am Tian Guiyin, a Year-4 undergraduate student majoring in Computer Engineering at the Department of Electrical and Electronic Engineering ([EEE](https://www.eee.hku.hk/)), The University of Hong Kong ([HKU](https://www.hku.hk/)).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -45,11 +47,15 @@ Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student major
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📖 Educations
+{: .section-title}
+
 - *2022.09 - 2026.07(now)*, Undergraduate, Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong.
 
 # 🔥 News
+{: .section-title}
+- **[2025.03]** &nbsp;🎉🎉 Join HKU [DASE CPS Lab](https://www.dase.hku.hk/facilities) as a Summer Research Intern
 - **[2025.03]** &nbsp;🎉🎉 Present demo at [IEEE VR 2025](https://ieeevr.org/2025/) 3D UI-contest, Sanit-Malo, France
-- **[2024.06]** &nbsp;🎉🎉 Join HKU [DASE HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern
+- **[2024.06]** &nbsp;🎉🎉 Join HKU [DASE HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern and become a [Visioneer](https://visioneers.hku.hk/)
 - **[2023.10]** &nbsp;🤖🏆 Join HKU [RoboMaster](https://innowings.engg.hku.hk/robomaster/) team and participated in [RMUC](https://www.robomaster.com/en-US/robo/rm) 2024  and [RMUL](https://www.robomaster.com/en-US/robo/college-league?djifrom=nav) 2024
 - **[2022.12]** &nbsp;🎉🎉 Smart Soccer Robot project was showcased in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/)
 - **[2022.09]** &nbsp;🎉🎉 Start my undergraduate journey at The University of Hong Kong 
@@ -59,15 +65,15 @@ Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student major
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
+{: .section-title}
+- *2025.06 - 2025.09*, Summer Research Intern in CPS Lab supervised by [Prof. S.Y. Hu](https://shiyanhucps.github.io), Hong Kong.
 
-- *2024.09 - now*, Student Research Assistant in [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his), Hong Kong.
+- *2024.09 - 2025.05*, Student Research Assistant in [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) supervised by [Prof. Y.H. Kuo](https://sites.google.com/site/yonghongkuo/), Hong Kong.
 
-- *2024.06 - 2024.09*, VR/XR Developer Summer Intern in [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his), Hong Kong.
-
-
-# 📚 Projects
+- *2024.06 - 2024.09*, VR/XR Developer Summer Intern in [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) supervised by [Prof. Y.H. Kuo](https://sites.google.com/site/yonghongkuo/), Hong Kong.
 
 
+<!-- # 📚Selected Projects
 
 **Autonomous Mobile Robot - Pest Control and Irrigation** | *Sep. 2024 - Dec. 2024*
   - Integrated Nvidia Jetson Nano with Arduino to build a real-time object detection and control system, achieved 98.5% accuracy
@@ -79,6 +85,11 @@ Hi👋, Nice to meet you! I am Tian Guiyin, a Year-3 undergraduate student major
   - Deployed the solution and achieved 97.8% accuracy in real-time hand gesture recognition tasks
 
 **Smart Soccer Robot** | *Sep. 2022 - Dec. 2022*
-  - Designed and built a competition soccer Robot, and be invitated to showcase in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/)
+  - Designed and built a competition soccer Robot, and be invitated to showcase in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/) -->
+
+# 📚 Selected Projects
+{: .section-title}
+
+{% include projects.html %}
 
 <center>...</center>
