@@ -66,6 +66,13 @@
     border-bottom: 1px solid $border-color;
   }
 
+  // 收紧带 .section-title 的标题与内容的间距，避免与自定义分割线重复
+  h1.section-title {
+    padding-bottom: 0.3em;
+    border-bottom: none;
+    margin-bottom: 0.4em;
+  }
+
   p, li, dl {
     font-size: 1em;
   }
@@ -85,6 +92,9 @@
 
   a {
     text-decoration: none;
+    position: relative;
+    z-index: 1;
+    pointer-events: auto;
 
     &:hover {
       text-decoration: underline;

@@ -11,14 +11,15 @@
     background: linear-gradient(to right, #2c3e50 0%, #34495e 30%, #5d6d7e 60%, transparent 100%);
     margin-top: 0.8em;
     border-radius: 1px;
+    pointer-events: none;
   }
 }
 
 // 特殊标题样式
 .section-title {
   position: relative;
-  margin-bottom: 1.2em;
-  padding-bottom: 0.8em;
+  margin-bottom: 0.5em; // 缩小标题与内容的间距
+  padding-bottom: 0.2em; //
   
   &::after {
     content: '';
@@ -29,6 +30,7 @@
     height: 3px;
     background: linear-gradient(90deg, #2c3e50 0%, #34495e 50%, transparent 100%);
     border-radius: 2px;
+    pointer-events: none;
   }
 }
 
@@ -48,15 +50,16 @@
     height: 2px;
     background: linear-gradient(90deg, #2c3e50 0%, #34495e 70%, transparent 100%);
     border-radius: 1px;
+    pointer-events: none;
   }
 }
 
 .project-enhanced {
-  margin: 1em 0;
+  margin: 0.2em 0; // 缩小整体上下间距
   
   .project-item {
-    margin-bottom: 1.2em;
-    padding-bottom: 0.8em;
+    margin-bottom: 0.6em; // 缩小项目之间的间距
+    padding-bottom: 0.3em; // 缩小分隔的内边距
     border-bottom: 1px solid #e8e8e8;
     
     &:last-child {
@@ -69,7 +72,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 0.3em;  // 减少标题和内容间距
+      margin-bottom: 0.2em;  // 减少标题和内容间距
       flex-wrap: wrap;
       gap: 1em;
       
@@ -77,19 +80,8 @@
         flex: 1;
         min-width: 280px;
         position: relative;
-        padding-bottom: 0.6em;
-        
-        // 标题下的渐变分割线（适配 GitHub Pages 构建环境）
-        &::after {
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 80px;
-          height: 3px;
-          background: linear-gradient(90deg, #2c3e50 0%, #34495e 50%, transparent 100%);
-          border-radius: 2px;
-        }
+        // 去除项目标题下的装饰性分割线
+        padding-bottom: 0;
         
         .project-title {
           font-weight: 600;
@@ -99,6 +91,8 @@
           line-height: 1.3;
           display: inline;
         }
+
+  // no-divider 兼容：不再需要特殊样式（占位注释，避免空规则集）
         
         .project-date {
           font-style: italic;
@@ -139,14 +133,14 @@
           }
           
           &.external-link:hover {
-            color: #f10404;
+            color: #ca0000;
           }
         }
       }
     }
     
     .project-content {
-      margin-bottom: 0.6em;  // 减少内容底部边距
+      margin-bottom: 0.4em;  // 进一步收紧内容底部间距
       
       p {
         margin: 0;
@@ -194,14 +188,19 @@
   }
 }
 
+// 让“Selected Projects”标题与项目列表之间更紧凑
+.section-title + .project-enhanced {
+  margin-top: 0.2em;
+}
+
 // 响应式设计
 @media (max-width: 768px) {
   .project-enhanced {
-    margin: 0.6em 0;
+    margin: 0.5em 0; // 移动端也稍微收紧
     
     .project-item {
-      margin-bottom: 0.8em;  // 减少项目间距
-      padding-bottom: 0.6em;
+      margin-bottom: 0.6em;  // 移动端进一步减少项目间距
+      padding-bottom: 0.4em;
       
       .project-header {
         flex-direction: column;

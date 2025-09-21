@@ -2,4 +2,5 @@
 
 bundle exec jekyll build --watch
 
-bundle exec jekyll serve
+$env:RUBYOPT='-rem/pure_ruby'
+bundle exec jekyll serve --livereload
