@@ -139,7 +139,7 @@ permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Live Server
-livereload: true
+livereload: false
 port: 4000
 host: 127.0.0.1
 destination: ./_site

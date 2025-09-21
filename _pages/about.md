@@ -53,7 +53,7 @@ Hi there👋, nice to meet you! I am Tian Guiyin, a Year-4 undergraduate student
 
 # 🔥 News
 {: .section-title}
-- **[2025.03]** &nbsp;🎉🎉 Join HKU [DASE CPS Lab](https://www.dase.hku.hk/facilities) as a Summer Research Intern
+- **[2025.06]** &nbsp;🎉🎉 Join HKU [DASE CPS Lab](https://www.dase.hku.hk/facilities) as a Summer Research Intern
 - **[2025.03]** &nbsp;🎉🎉 Present demo at [IEEE VR 2025](https://ieeevr.org/2025/) 3D UI-contest, Sanit-Malo, France
 - **[2024.06]** &nbsp;🎉🎉 Join HKU [DASE HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern and become a [Visioneer](https://visioneers.hku.hk/)
 - **[2023.10]** &nbsp;🤖🏆 Join HKU [RoboMaster](https://innowings.engg.hku.hk/robomaster/) team and participated in [RMUC](https://www.robomaster.com/en-US/robo/rm) 2024  and [RMUL](https://www.robomaster.com/en-US/robo/college-league?djifrom=nav) 2024

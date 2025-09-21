@@ -76,6 +76,20 @@
       .project-title-and-date {
         flex: 1;
         min-width: 280px;
+        position: relative;
+        padding-bottom: 0.6em;
+        
+        // 标题下的渐变分割线（适配 GitHub Pages 构建环境）
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 80px;
+          height: 3px;
+          background: linear-gradient(90deg, #2c3e50 0%, #34495e 50%, transparent 100%);
+          border-radius: 2px;
+        }
         
         .project-title {
           font-weight: 600;
