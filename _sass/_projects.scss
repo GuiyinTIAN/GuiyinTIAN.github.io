@@ -135,6 +135,22 @@
           &.red-link:hover {
             color: #ca0000;
           }
+
+          // 强化 red-link 的覆盖范围，确保图标也变红，避免远端构建顺序导致的覆盖
+          &.red-link {
+            .fa-file-pdf,
+            .fa-youtube {
+              color: currentColor;
+              transition: color 0.2s ease;
+            }
+          }
+        }
+
+        // 提升选择器优先级，确保在 GitHub Pages 上也生效
+        .project-link.red-link:hover,
+        .project-link.red-link:hover .fa-file-pdf,
+        .project-link.red-link:hover .fa-youtube {
+          color: #ca0000;
         }
       }
     }
