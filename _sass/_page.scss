@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
@@ -10,6 +12,10 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+  /* 确保在移动端不超出视口宽度 */
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 
   @include breakpoint($x-large) {
     max-width: $x-large;

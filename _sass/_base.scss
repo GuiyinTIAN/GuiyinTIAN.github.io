@@ -5,6 +5,9 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  /* 防止移动端横向滚动 */
+  width: 100%;
+  max-width: 100vw;
 }
 
 body {
@@ -14,6 +17,10 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  /* 防止移动端横向滚动 */
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

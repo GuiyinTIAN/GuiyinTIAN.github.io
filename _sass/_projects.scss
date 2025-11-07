@@ -1,3 +1,4 @@
+@charset "UTF-8";
 // 标题分界线样式
 .section-divider {
   position: relative;
@@ -73,12 +74,12 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 0.2em;  // 减少标题和内容间距
-      flex-wrap: wrap;
+      flex-wrap: nowrap; // 桌面端也不换行，避免内容过宽导致横向滚动
       gap: 1em;
       
       .project-title-and-date {
         flex: 1;
-        min-width: 280px;
+        min-width: 0; // 移除固定最小宽度，允许在小屏上完全压缩
         position: relative;
         // 去除项目标题下的装饰性分割线
         padding-bottom: 0;
@@ -213,10 +214,14 @@
 @media (max-width: 768px) {
   .project-enhanced {
     margin: 0.5em 0; // 移动端也稍微收紧
+    max-width: 100%; // 确保不超出视口
+    overflow-x: hidden; // 防止横向滚动
     
     .project-item {
       margin-bottom: 0.6em;  // 移动端进一步减少项目间距
       padding-bottom: 0.4em;
+      max-width: 100%; // 确保不超出视口
+      box-sizing: border-box;
       
       .project-header {
         /* 移动端保持同一行显示：标题+日期 在左，链接在右 */
@@ -224,6 +229,7 @@
         align-items: center;
         gap: 0.5em;
         flex-wrap: nowrap;
+        max-width: 100%; // 确保不超出视口
         
         .project-title-and-date {
           /* 左侧区域自适应占满剩余空间 */
@@ -232,6 +238,7 @@
           display: flex;
           align-items: baseline;
           gap: 0.4em;
+          max-width: calc(100% - 100px); // 为右侧链接预留空间
 
           .project-title {
             font-size: 1.0em;
@@ -240,12 +247,14 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis; 
+            max-width: 100%; // 确保不超出
           }
 
           .project-date {
             font-size: 0.85em;
             margin-left: 0;
             white-space: nowrap;
+            flex-shrink: 0; // 防止日期被压缩
           }
         }
         
@@ -263,6 +272,8 @@
       .project-media {
         .video-embed {
           padding: 0.8em;
+          max-width: 100%; // 确保不超出视口
+          box-sizing: border-box;
           
           iframe {
             max-width: 100%;
