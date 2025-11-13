@@ -12,16 +12,25 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  /* 移动端防止超出视口 */
+  max-width: 100vw;
 
   &__inner-wrap {
     @include container;
     @include clearfix;
     padding: .5em;
     font-family: $sans-serif-narrow;
-    /* 移动端使用100%宽度，桌面端居中显示 */
+    /* 桌面端居中显示 */
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+
+    /* 移动端强制适应屏幕宽度 */
+    @media (max-width: 768px) {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0.3em;
+    }
 
     @include breakpoint($x-large) {
       max-width: $x-large;
