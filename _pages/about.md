@@ -19,7 +19,7 @@ redirect_from:
 # 👨‍🎓 About Me
 {: .section-title}
 
-Hi there👋, nice to meet you! I am Tian Guiyin, a Year-4 undergraduate student majoring in Computer Engineering at the Department of Electrical and Electronic Engineering ([EEE](https://www.eee.hku.hk/)), The University of Hong Kong ([HKU](https://www.hku.hk/)).
+Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineering graduate from the Department of Electrical and Computer Engineering ([ECE](https://www.ece.hku.hk/)) at [HKU](https://www.hku.hk/)). I’ll soon be joining the Department of Data and Systems Engineering ([DASE](https://www.dase.hku.hk/)) at HKU as an MPhil student, where I’ll be part of the [CPS Lab](https://cps.hku.hk/) under the supervision of [Professor S.Y. Hu](https://www.dase.hku.hk/people/s-y-hu).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -49,13 +49,16 @@ Hi there👋, nice to meet you! I am Tian Guiyin, a Year-4 undergraduate student
 # 📖 Educations
 {: .section-title}
 
-- *2022.09 - 2026.07(now)*, Undergraduate, Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong.
+- **2026.09 - 2028.06(*expected*)**, MPhil, Department of Data and Systems Engineering, The University of Hong Kong, Hong Kong.
+- **2022.09 - 2026.06**, Undergraduate, Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong.
 
 # 🔥 News
 {: .section-title}
-- **[2025.06]** &nbsp;🎉🎉 Join HKU [DASE CPS Lab](https://www.dase.hku.hk/facilities) as a Summer Research Intern
+- **[2026.06]** &nbsp;🎉🎓 Completed my BEng in Computer Engineering at HKU
+- **[2026.04]** &nbsp;🏆🏆 Won the [Best Poster Award](https://ece.hku.hk/20260511-1/) at HKU-ECE Senior Design Projects Poster Display Day 2026 *(top 3 overall)*
+- **[2025.06]** &nbsp;🎉🎉 Join HKU [CPS Lab](https://www.dase.hku.hk/facilities) as a Summer Research Intern
 - **[2025.03]** &nbsp;🎉🎉 Present demo at [IEEE VR 2025](https://ieeevr.org/2025/) 3D UI-contest, Sanit-Malo, France
-- **[2024.06]** &nbsp;🎉🎉 Join HKU [DASE HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern and become a [Visioneer](https://visioneers.hku.hk/)
+- **[2024.06]** &nbsp;🎉🎉 Join HKU [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern and become a [Visioneer](https://visioneers.hku.hk/)
 - **[2023.10]** &nbsp;🤖🏆 Join HKU [RoboMaster](https://innowings.engg.hku.hk/robomaster/) team and participated in [RMUC](https://www.robomaster.com/en-US/robo/rm) 2024  and [RMUL](https://www.robomaster.com/en-US/robo/college-league?djifrom=nav) 2024
 - **[2022.12]** &nbsp;🎉🎉 Smart Soccer Robot project was showcased in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/)
 - **[2022.09]** &nbsp;🎉🎉 Start my undergraduate journey at The University of Hong Kong 
@@ -66,7 +69,7 @@ Hi there👋, nice to meet you! I am Tian Guiyin, a Year-4 undergraduate student
 
 # 💻 Internships
 {: .section-title}
-- *2025.06 - 2025.09*, Summer Research Intern in CPS Lab supervised by [Prof. S.Y. Hu](https://shiyanhucps.github.io), Hong Kong.
+- *2025.06 - 2025.09*, Summer Research Intern in [CPS Lab](https://cps.hku.hk/) supervised by [Prof. S.Y. Hu](https://shiyanhucps.github.io), Hong Kong.
 
 - *2024.09 - 2025.05*, Student Research Assistant in [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) supervised by [Prof. Y.H. Kuo](https://sites.google.com/site/yonghongkuo/), Hong Kong.
 
@@ -87,7 +90,7 @@ Hi there👋, nice to meet you! I am Tian Guiyin, a Year-4 undergraduate student
 **Smart Soccer Robot** | *Sep. 2022 - Dec. 2022*
   - Designed and built a competition soccer Robot, and be invitated to showcase in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/) -->
 
-# 📚 Selected Projects
+# 📚 UG Selected Projects
 {: .section-title}
 
 {% include projects.html %}
