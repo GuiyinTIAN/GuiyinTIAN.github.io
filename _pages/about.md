@@ -19,7 +19,7 @@ redirect_from:
 # 👨‍🎓 About Me
 {: .section-title}
 
-Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineering graduate from the Department of Electrical and Computer Engineering ([ECE](https://www.ece.hku.hk/)) at [HKU](https://www.hku.hk/)). I’ll soon be joining the Department of Data and Systems Engineering ([DASE](https://www.dase.hku.hk/)) at HKU as an MPhil student, where I’ll be part of the [CPS Lab](https://cps.hku.hk/) under the supervision of [Professor S.Y. Hu](https://www.dase.hku.hk/people/s-y-hu).
+Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineering graduate from the Department of Electrical and Computer Engineering ([ECE](https://www.ece.hku.hk/)) at [HKU](https://www.hku.hk/). I’ll soon be joining the Department of Data and Systems Engineering ([DASE](https://www.dase.hku.hk/)) at HKU as an MPhil student, where I’ll be part of the [CPS Lab](https://cps.hku.hk/) under the supervision of [Professor S.Y. Hu](https://www.dase.hku.hk/people/s-y-hu).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
