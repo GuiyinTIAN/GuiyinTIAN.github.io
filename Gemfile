@@ -13,6 +13,9 @@ gem "github-pages", "~> 215"
 gem "nokogiri", "~> 1.13.3"  
 gem "jekyll", "~> 3.9.0"
 gem "webrick", "~> 1.7.0"
+gem "csv"
+gem "bigdecimal"
+gem "liquid", "~> 4.0.3"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
 gem "wdm", "~> 0.1.1" if Gem.win_platform?
 

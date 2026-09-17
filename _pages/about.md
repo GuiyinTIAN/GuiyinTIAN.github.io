@@ -19,7 +19,7 @@ redirect_from:
 # 👨‍🎓 About Me
 {: .section-title}
 
-Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineering graduate from the Department of Electrical and Computer Engineering ([ECE](https://www.ece.hku.hk/)) at [HKU](https://www.hku.hk/). I’ll soon be joining the Department of Data and Systems Engineering ([DASE](https://www.dase.hku.hk/)) at HKU as an MPhil student, where I’ll be part of the [CPS Lab](https://cps.hku.hk/) under the supervision of [Professor S.Y. Hu](https://www.dase.hku.hk/people/s-y-hu).
+Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineering graduate from the Department of Electrical and Computer Engineering ([ECE](https://www.ece.hku.hk/)) at [HKU](https://www.hku.hk/). I am currently an MPhil student in the Department of Data and Systems Engineering ([DASE](https://www.dase.hku.hk/)) at HKU, affiliated with the [RoboCPS Lab](https://cps.hku.hk/) under the supervision of [Professor S.Y. Hu](https://www.dase.hku.hk/people/s-y-hu).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=YSHAEiAAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -42,21 +42,20 @@ Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineerin
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+
 
 # 📖 Educations
 {: .section-title}
 
-- **2026.09 - 2028.06(*expected*)**, MPhil, Department of Data and Systems Engineering, The University of Hong Kong, Hong Kong.
+- **2026.09 - 2028.06 (*expected*)**, MPhil, Department of Data and Systems Engineering, The University of Hong Kong, Hong Kong.
 - **2022.09 - 2026.06**, Undergraduate, Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong.
 
 # 🔥 News
 {: .section-title}
+- **[2026.09]** &nbsp;🎉🎉 Start my MPhil studies within the [RoboCPS Lab](https://cps.hku.hk/) at HKU under the supervision of [Prof. S.Y. Hu](https://www.dase.hku.hk/people/s-y-hu)
 - **[2026.06]** &nbsp;🎉🎓 Completed my BEng in Computer Engineering at HKU
 - **[2026.04]** &nbsp;🏆🏆 Won the [Best Poster Award](https://ece.hku.hk/20260511-1/) at HKU-ECE Senior Design Projects Poster Display Day 2026 *(top 3 overall)*
-- **[2025.06]** &nbsp;🎉🎉 Join HKU [CPS Lab](https://www.dase.hku.hk/facilities) as a Summer Research Intern
+- **[2025.06]** &nbsp;🎉🎉 Join HKU [RoboCPS Lab](https://cps.hku.hk/) as a Summer Research Intern
 - **[2025.03]** &nbsp;🎉🎉 Present demo at [IEEE VR 2025](https://ieeevr.org/2025/) 3D UI-contest, Sanit-Malo, France
 - **[2024.06]** &nbsp;🎉🎉 Join HKU [HIS Lab](https://www.dase.hku.hk/facilities/human-system-interaction-and-simulation-laboratory-his) as a Summer Research Intern and become a [Visioneer](https://visioneers.hku.hk/)
 - **[2023.10]** &nbsp;🤖🏆 Join HKU [RoboMaster](https://innowings.engg.hku.hk/robomaster/) team and participated in [RMUC](https://www.robomaster.com/en-US/robo/rm) 2024  and [RMUL](https://www.robomaster.com/en-US/robo/college-league?djifrom=nav) 2024
@@ -66,6 +65,10 @@ Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineerin
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+
+
+
+
 
 # 💻 Internships
 {: .section-title}
@@ -92,7 +95,34 @@ Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineerin
 
 # 📚 UG Selected Projects
 {: .section-title}
-
 {% include projects.html %}
+
+# 🎖 Honors and Awards
+{: .section-title}
+
+<div class="award-box">
+<div class="award-box-text" markdown="1">
+
+**2026.08 — Best Technical Design Award**  
+Robot Design Competition at IEEE International Conference on Robot and Human Interactive Communication (RO-MAN) 2026
+
+</div>
+<div class="award-box-image">
+<img src="/images/best-technical-design-award-2026.png" alt="Best Technical Design Award certificate" loading="lazy">
+</div>
+</div>
+
+
+<div class="award-box">
+<div class="award-box-text" markdown="1">
+
+**2026.04 — Best Poster Award**  
+HKU-ECE Senior Design Projects Poster Display Day 2026 *(top 3 overall)*
+
+</div>
+<div class="award-box-image">
+<img src="/images/best-poster-award-2026.png" alt="Best Poster Award certificate" loading="lazy">
+</div>
+</div>
 
 <center>...</center>
