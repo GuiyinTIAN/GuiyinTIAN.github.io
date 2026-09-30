@@ -93,9 +93,9 @@ Hi there 👋, nice to meet you! I’m Tian Guiyin, a recent Computer Engineerin
 **Smart Soccer Robot** | *Sep. 2022 - Dec. 2022*
   - Designed and built a competition soccer Robot, and be invitated to showcase in the [HKU 7th Engineering Inno Show](https://innoacademy.engg.hku.hk/robota/) -->
 
-# 📚 UG Selected Projects
+<!-- # 📚 UG Selected Projects
 {: .section-title}
-{% include projects.html %}
+{% include projects.html %} -->
 
 # 🎖 Honors and Awards
 {: .section-title}
